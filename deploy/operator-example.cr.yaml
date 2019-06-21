@@ -1,0 +1,10 @@
+# from: memcached sample
+apiVersion: instana.com/v1alpha1
+kind: Example
+metadata:
+  name: example
+spec:
+  specialRoles:
+  - A
+  - B
+  - C
