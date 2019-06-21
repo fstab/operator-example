@@ -4,8 +4,8 @@ Operator Example
 Build:
 
 ```
-./mvnw clean package
-docker build -f src/main/docker/Dockerfile.jvm -t quarkus/getting-started-jvm .
+./mvnw clean package -Pnative -Dnative-image.docker-build=true
+docker build -f src/main/docker/Dockerfile.native -t quarkus/getting-started-native .
 ```
 
 Prepare:

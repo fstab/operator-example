@@ -14,7 +14,7 @@ spec:
     spec:
       serviceAccountName: operator-example
       containers:
-      - image: quarkus/getting-started-jvm
+      - image: quarkus/getting-started-native
         name: operator-example
         imagePullPolicy: IfNotPresent
         ports:
