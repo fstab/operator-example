@@ -2,11 +2,13 @@ package com.instana.operator.example.cr;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import io.quarkus.runtime.annotations.RegisterForReflection;
 
 import java.util.Arrays;
 import java.util.Set;
 
 @JsonDeserialize
+@RegisterForReflection
 public class ExampleResourceSpec {
 
   @JsonProperty("specialRoles")

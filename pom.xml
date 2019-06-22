@@ -91,6 +91,7 @@
                 </goals>
                 <configuration>
                   <enableHttpUrlHandler>true</enableHttpUrlHandler>
+                  <additionalBuildArgs>-H:IncludeResources=daemonset.yaml</additionalBuildArgs>
                 </configuration>
               </execution>
             </executions>
