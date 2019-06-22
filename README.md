@@ -1,6 +1,8 @@
 Operator Example
 ----------------
 
+_Note: This example can be used to build an operator in native mode, but it requires a local Quarkus version 999-SNAPSHOT which was built from this PR: https://github.com/quarkusio/quarkus/pull/2910_
+
 Build:
 
 ```
